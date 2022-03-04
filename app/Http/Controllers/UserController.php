@@ -8,6 +8,6 @@ class UserController extends Controller
 {
     //
     function show(){
-     return "Controller has been Created Successfully";
+     return "user page created by using Controller ";
     }
 }

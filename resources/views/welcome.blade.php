@@ -14,6 +14,7 @@
             <th width="15%" rowspan="2"><a href="#"><img src="data/icon.png" style=" max-height: 70px;" ></a></td>
             <th width="40%">
                 <input type="text" name="search" id="search_box" placeholder="Search Foods" size="25%">
+                
                 <input type="button" value="Search" size="10%"  onclick="search_box()">
             </th>
             <th width="20%">
@@ -61,16 +62,20 @@
                 <div class="cato_left">
                 <h3 style="text-align:center;background-color: #3dd61b;"> <i> Categories </i></h3>
                 <ul class="link"> 
+                    <a href="resources\views\pagea" >
+                        <li id="l1" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)">  PageA </li> </a> 
                     <a href="index.html" >
-                        <li id="l1" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Sea foods</li> </a>
+                        <li id="l2" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> PageB </li> </a>    
+                    <a href="index.html" >
+                        <li id="l3" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Sea foods</li> </a>
                     <a href="index.html"> 
-                        <li id="l2" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Vegitable</li> </a>
+                        <li id="l4" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Vegitable</li> </a>
                     <a href="index.html"> 
-                        <li id="l3" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Fruits</li>    </a>
+                        <li id="l5" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Fruits</li>    </a>
                     <a href="index.html"> 
-                        <li id="l4" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Meats</li>     </a>
+                        <li id="l6" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Meats</li>     </a>
                     <a href="index.html"> 
-                        <li id="l5" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Special</li>   </a>
+                        <li id="l7" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Special</li>   </a>
                 </ul>
             </div>
             </td>
