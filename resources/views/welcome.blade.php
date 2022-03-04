@@ -69,7 +69,7 @@
                     <a href="index.html" >
                         <li id="l3" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Sea foods</li> </a>
                     <a href="index.html"> 
-                        <li id="l4" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Vegitable</li> </a>
+                        <li id="l4" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Vegetable</li> </a>
                     <a href="index.html"> 
                         <li id="l5" onmouseenter="font_size_plus(id)" onmouseout="font_size_minus(id)"> Fruits</li>    </a>
                     <a href="index.html"> 

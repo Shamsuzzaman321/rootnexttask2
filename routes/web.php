@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PageA;
+use App\Http\Controllers\productlist;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,8 +18,9 @@ use App\Http\Controllers\PageA;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get("user",[UserController::class,'show']);
+Route::get("user",[UserController::class,'getData']);
 Route::get("pagea",[PageA::class,'loadView']);
+Route::view('home','home');
 Route::view('home','home');
 Route::view('noaccess','noaccess')->middleware('protectPage');
 Route::group(['middleware'=>['protectPage']],function(){
