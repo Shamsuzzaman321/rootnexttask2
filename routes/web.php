@@ -19,3 +19,8 @@ Route::get('/', function () {
 });
 Route::get("user",[UserController::class,'show']);
 Route::get("pagea",[PageA::class,'loadView']);
+Route::view('home','home');
+Route::view('noaccess','noaccess');
+Route::group(['middleware'=>['protectPage']],function(){
+	Route::view('welcome','welcome');
+});
